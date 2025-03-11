@@ -1,13 +1,94 @@
 # Changelog
+## [19.0.9](https://github.com/primefaces/primeng/tree/19.0.9) (2025-02-27)
+[Full Changelog](https://github.com/primefaces/primeng/compare/19.0.8...19.0.9)
 
-## [19.0.6](https://github.com/primefaces/primeng/tree/19.0.6) (2025-01-16)
+**Fixed bugs:**
+- Table - filtertemplate doesn't work. [\#17775](https://github.com/primefaces/primeng/issues/17775)
+
+## [19.0.8](https://github.com/primefaces/primeng/tree/19.0.8) (2025-02-25)
+[Full Changelog](https://github.com/primefaces/primeng/compare/19.0.7...19.0.8)
+
+**Fixed bugs:**
+
+- Progress bar a11y issue [\#17606](https://github.com/primefaces/primeng/issues/17606)
+- BaseComponent is causing memory leaks [\#17645](https://github.com/primefaces/primeng/issues/17645)
+- MultiSelect filter don't work when the options are created with custom class [\#17530](https://github.com/primefaces/primeng/issues/17530)
+- Pressing escape key while modal is open should only close select panel and not the modal [\#17670](https://github.com/primefaces/primeng/issues/17670)
+- Calendar: locale am & pm is not work on time picker [\#17653](https://github.com/primefaces/primeng/issues/17653)
+- ConfirmDialog: No way to distinguish reject and close button action being fired [\#17512](https://github.com/primefaces/primeng/issues/17512)
+- Accordion onOpen and onClose emitter won't trigger any events with the new components for accordion [\#17447](https://github.com/primefaces/primeng/issues/17447)
+- Select filter field with bug when using iftalabel [\#17751](https://github.com/primefaces/primeng/issues/17751)
+- Wrong default icon on p-messages [\#17757](https://github.com/primefaces/primeng/issues/17757)
+- Messages | Icon Only gap issue [\#17648](https://github.com/primefaces/primeng/issues/17648)
+- Popover | incostent overlay positioning [\#17614](https://github.com/primefaces/primeng/issues/17614)
+- 
+## [19.0.7](https://github.com/primefaces/primeng/tree/19.0.7) (2025-02-21)
+
+[Full Changelog](https://github.com/primefaces/primeng/compare/19.0.6...19.0.7)
+
+**Fixed bugs:**
+
+- PrimeNG not working after upgrade to Angular 19.1.7 [\#17730](https://github.com/primefaces/primeng/issues/17730)
+- [vite] Internal server error: fn is not a function [\#17716](https://github.com/primefaces/primeng/issues/17716)
+- OrderList: The drag and drop functionality not implemented in V18 [\#16633](https://github.com/primefaces/primeng/issues/16633)
+- "Select component with filter: ""No results found"" entry should not be enabled or clickable [\#17382](https://github.com/primefaces/primeng/issues/17382)"
+- Accessibility and Templating Issues in p-confirmdialog and p-dialog (PrimeNG v19) [\#17404](https://github.com/primefaces/primeng/issues/17404)
+- Picklist does not support disabled options [\#17533](https://github.com/primefaces/primeng/issues/17533)
+- p-checkbox has invalid markup when required=""false" [\#17528](https://github.com/primefaces/primeng/issues/17528)"
+- SpeedDial Buttons Missing type="button" Causes Unintended Form Submission [\#17552](https://github.com/primefaces/primeng/issues/17552)"
+- Badge disable does not work correctly [\#17559](https://github.com/primefaces/primeng/issues/17559)
+- p-auto-complete behaves differently than p-autocomplete [\#17535](https://github.com/primefaces/primeng/issues/17535)
+- PickList - reorder items call scrollInView with incorrect parameters [\#17564](https://github.com/primefaces/primeng/issues/17564)
+- Tree: styleClass of nodes is ignored [\#17579](https://github.com/primefaces/primeng/issues/17579)
+- Change of pDroppableDisabled property after ngAfterViewInit doesn't change element's behavior [\#17598](https://github.com/primefaces/primeng/issues/17598)
+- p-confirmdialog - dismissableMask not working [\#17574](https://github.com/primefaces/primeng/issues/17574)
+- Duplicate class attribute in example of DataView [\#17621](https://github.com/primefaces/primeng/issues/17621)
+- Docs: Select (previously dropdown) component, loading section wrong code example [\#17626](https://github.com/primefaces/primeng/issues/17626)"
+- Updates Loading Icon template reference variable [\#17736](https://github.com/primefaces/primeng/pull/17736)
+- Update DataView interface to reflect current configuration [\#17735](https://github.com/primefaces/primeng/pull/17735)
+- Multiselect should use all options for selectedOptions not just visible [\#17732](https://github.com/primefaces/primeng/issues/17732)
+- Binding [dt] on Select component has no effect [\#17540](https://github.com/primefaces/primeng/issues/17540)
+- p-fileUpload selecting file when fileLimit set to undefined causes js errors [\#17721](https://github.com/primefaces/primeng/issues/17721)
+- Popover basicdoc.ts uses deprecated *ngFor directive [\#17707](https://github.com/primefaces/primeng/issues/17707)
+- DatePicker: Cannot escape header with keyboard [\#17663](https://github.com/primefaces/primeng/issues/17663)
+- [v19] showcase for datepicker-sizes-demo has wrong ts [\#17690](https://github.com/primefaces/primeng/issues/17690)
+
+## [19.0.6](https://github.com/primefaces/primeng/tree/19.0.6) (2025-02-06)
 
 [Full Changelog](https://github.com/primefaces/primeng/compare/19.0.5...19.0.6)
 
 **Fixed bugs:**
 
+- Update Configuration Documentation [\#17588](https://github.com/primefaces/primeng/issues/17588)
+- Missings types for PrimeNGConfig [\#17601](https://github.com/primefaces/primeng/issues/17601)
+- Conflict between picklist used inputicon-style and table loading mask [\#17263](https://github.com/primefaces/primeng/issues/17263)
+- Terminal component docs suggest non-existent commands [\#17519](https://github.com/primefaces/primeng/issues/17519)
+- Global inputVariant setting is ignored in components [\#17595](https://github.com/primefaces/primeng/issues/17595)
+- Toast | Severity class not applied to close icon [\#17573](https://github.com/primefaces/primeng/issues/17573)
+- Filled material inputs have wrong border radius [\#17594](https://github.com/primefaces/primeng/issues/17594)
+- DatePicker | wrong style w/material [\#17590](https://github.com/primefaces/primeng/issues/17590)
+- inputVariant type missing in PrimeNG Config Type [\#17578](https://github.com/primefaces/primeng/issues/17578)
+- Material Filled Textarea visuals broken [\#17571](https://github.com/primefaces/primeng/issues/17571)
+- InputNumber buttons have radius issues [\#17488](https://github.com/primefaces/primeng/issues/17488)
+- SelectButton: Option with long label breaks component height [\#16877](https://github.com/primefaces/primeng/issues/16877)
+- Table: selectable stripedRows don't get hover background applied [\#17349](https://github.com/primefaces/primeng/issues/17349)
+- Icon avatars are not displayed correctly [\#17309](https://github.com/primefaces/primeng/issues/17309)
+- The fileupload progressbar in advance mode is not visible [\#17291](https://github.com/primefaces/primeng/issues/17291)
+- Checkbox and radio invalid styles are not applied correctly [\#17303](https://github.com/primefaces/primeng/issues/17303)
+- Hovered filled text input is not styled according its corresponding design token [\#17277](https://github.com/primefaces/primeng/issues/17277)
+- make build scripts cross platform [\#17498](https://github.com/primefaces/primeng/issues/17498)
+- Select, MultiSelect: Scoped Style not working [\#17381](https://github.com/primefaces/primeng/issues/17381)
+- Datepicker, Multiselect, Message, Toast: Missing aria-labels [\#17449](https://github.com/primefaces/primeng/issues/17449)
+- Table: Column Resize broken with sortable columns [\#17458](https://github.com/primefaces/primeng/issues/17458)
+- Listbox: Hidden element has focusable content [\#17465](https://github.com/primefaces/primeng/issues/17465)
+- PickList: drag n drop not working [\#16578](https://github.com/primefaces/primeng/issues/16578)
+- Steplist seperator does not to work with dynamic steps [\#17482](https://github.com/primefaces/primeng/issues/17482)
+- p-treeTableCheckbox disabled not working [\#17496](https://github.com/primefaces/primeng/issues/17496)
+- DynamicDialog: closeOnEscape doesn't work without autoZIndex [\#17016](https://github.com/primefaces/primeng/issues/17016)
+- Showcase, Table: Use TableLazyLoadEvent instead of LazyLoadEvent [\#17515](https://github.com/primefaces/primeng/issues/17515)
+- Button | Icon button is not circle [\#17485](https://github.com/primefaces/primeng/issues/17485)
+- Table | FrozenColumn is not working [\#17490](https://github.com/primefaces/primeng/issues/17490)
 - v19 TabModule throws an error NG0300 [\#17407](https://github.com/primefaces/primeng/issues/17407)
-- Component: Table sorticon template [\#17402](https://github.com/primefaces/primeng/issues/17402)
 - Missing documentation in Tab component [\#17294](https://github.com/primefaces/primeng/issues/17294)
 - Add onNodeDoubleClick event emitter to Tree component [\#17401](https://github.com/primefaces/primeng/issues/17401)
 - Datepicker size not working [\#17199](https://github.com/primefaces/primeng/issues/17199)

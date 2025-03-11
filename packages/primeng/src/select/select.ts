@@ -473,7 +473,7 @@ export class Select extends BaseComponent implements OnInit, AfterViewInit, Afte
      * Specifies the input variant of the component.
      * @group Props
      */
-    @Input() variant: 'filled' | 'outlined' = 'outlined';
+    @Input() variant: 'filled' | 'outlined';
     /**
      * Identifier of the accessible input element.
      * @group Props
@@ -1385,6 +1385,7 @@ export class Select extends BaseComponent implements OnInit, AfterViewInit, Afte
     }
 
     ngAfterViewInit() {
+        super.ngAfterViewInit();
         if (this.editable) {
             this.updateEditableLabel();
         }
@@ -1955,6 +1956,7 @@ export class Select extends BaseComponent implements OnInit, AfterViewInit, Afte
     onEscapeKey(event: KeyboardEvent) {
         this.overlayVisible && this.hide(true);
         event.preventDefault();
+        event.stopPropagation();
     }
 
     onTabKey(event, pressedInInputText = false) {

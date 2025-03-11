@@ -42,6 +42,13 @@ const theme = ({ dt }) => `
 
 .p-datatable-scrollable th.p-datatable-frozen-column {
     z-index: 1;
+    position: sticky;
+    background: ${dt('datatable.header.cell.background')};
+}
+.p-datatable-scrollable td.p-datatable-frozen-column {
+    z-index: 1;
+    position: sticky;
+    background: ${dt('datatable.header.cell.background')};
 }
 
 .p-datatable-scrollable > .p-datatable-table-container > .p-datatable-table > .p-datatable-thead,
@@ -523,6 +530,11 @@ p-datatable-gridlines .p-datatable-tbody > tr:last-child > td {
 .p-datatable.p-datatable-striped .p-datatable-tbody > tr:nth-child(odd).p-datatable-row-selected {
     background: ${dt('datatable.row.selected.background')};
     color: ${dt('datatable.row.selected.color')};
+}
+
+.p-datatable-striped.p-datatable-hoverable .p-datatable-tbody > tr:not(.p-datatable-row-selected):hover {
+    background: ${dt('datatable.row.hover.background')};
+    color: ${dt('datatable.row.hover.color')};
 }
 
 .p-datatable.p-datatable-sm .p-datatable-header {
